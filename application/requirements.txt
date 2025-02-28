@@ -1,0 +1,8 @@
+bcrypt==4.2.0
+fastapi==0.114.0
+pyinstaller==6.10.0
+python-jose==3.3.0
+pywebview==5.2
+SQLAlchemy==2.0.34
+uvicorn==0.30.6
+loguru
