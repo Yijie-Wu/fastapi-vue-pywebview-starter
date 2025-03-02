@@ -45,12 +45,6 @@ const handleConnect = () => {
         param: null
       }
       store.sendData(data1);
-
-      let data2 = {
-        cmd: 'recv',
-        param: null
-      }
-      store.sendData(data2);
     }
   }, 3000)
 
