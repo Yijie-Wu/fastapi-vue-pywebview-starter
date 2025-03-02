@@ -17,17 +17,17 @@ const goTo = (path) => {
 <template>
   <div class="main">
     <div class="aside">
-      <!--      <div class="base-function">-->
-      <!--        <div class="base-function-item red">-->
-      <!--          <el-icon :size="10"><CloseBold/></el-icon>-->
-      <!--        </div>-->
-      <!--        <div class="base-function-item orange">-->
-      <!--          <el-icon :size="10"><SemiSelect/></el-icon>-->
-      <!--        </div>-->
-      <!--        <div class="base-function-item green trans145">-->
-      <!--          <el-icon :size="10"><DCaret/></el-icon>-->
-      <!--        </div>-->
-      <!--      </div>-->
+            <div class="base-function">
+              <div class="base-function-item red">
+                <el-icon :size="10"><CloseBold/></el-icon>
+              </div>
+              <div class="base-function-item orange">
+                <el-icon :size="10"><SemiSelect/></el-icon>
+              </div>
+              <div class="base-function-item green trans145">
+                <el-icon :size="10"><DCaret/></el-icon>
+              </div>
+            </div>
       <div class="logo">
         <el-image :src="Logo" style="width: 50px;height: 50px;border-radius: 50%;"></el-image>
       </div>
@@ -89,7 +89,7 @@ const goTo = (path) => {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-right: 1px solid lightgray;
+  background-color: #E9E9EAFF;
 }
 
 .base-function {
